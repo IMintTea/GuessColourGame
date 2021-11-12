@@ -35,8 +35,11 @@ public class Main {
         Score = new Gui().Score;
 
         while (Replay == true && Score != 20) {
-            new Gui();
-            Replay = false;
+            //Replay = false;
+            //new Gui();
+//            String b1 = Button1.toString();
+//            char b1char = b1.charAt(7);
+//            int b1num = Integer.parseInt(String.valueOf(b1char));
         }
 
     }

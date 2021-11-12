@@ -42,7 +42,8 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b1 = Button1.toString();
                 char b1char = b1.charAt(7);
-                if (b1char == randNum()) {
+                int b1num = Integer.parseInt(String.valueOf(b1char));
+                if (Integer.parseInt(String.valueOf(b1char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -60,7 +61,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b2 = Button2.toString();
                 char b2char = b2.charAt(7);
-                if (b2char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b2char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -78,7 +79,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b3 = Button3.toString();
                 char b3char = b3.charAt(7);
-                if (b3char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b3char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -96,7 +97,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b4 = Button4.toString();
                 char b4char = b4.charAt(7);
-                if (b4char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b4char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -114,7 +115,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b5 = Button5.toString();
                 char b5char = b5.charAt(7);
-                if (b5char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b5char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -132,7 +133,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b6 = Button6.toString();
                 char b6char = b6.charAt(7);
-                if (b6char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b6char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -150,7 +151,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b7 = Button7.toString();
                 char b7char = b7.charAt(7);
-                if (b7char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b7char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -168,7 +169,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b8 = Button8.toString();
                 char b8char = b8.charAt(7);
-                if (b8char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b8char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -186,7 +187,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b9 = Button9.toString();
                 char b9char = b9.charAt(7);
-                if (b9char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b9char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
@@ -204,7 +205,7 @@ public class Gui extends javax.swing.JFrame{
             public void actionPerformed(ActionEvent e) {
                 String b10 = Button10.toString();
                 char b10char = b10.charAt(7);
-                if (b10char == randNum()) {
+                if (Integer.parseInt(String.valueOf(b10char)) == randNum()) {
                     correctLb.setVisible(true);
                     correctLb.setText("Correct!! The Answer was " + randNum());
                     Score = Score +1;
