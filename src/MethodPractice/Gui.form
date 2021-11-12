@@ -98,17 +98,9 @@
           <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <component id="62e30" class="javax.swing.JLabel" binding="correctLb">
-        <constraints>
-          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Correct!!"/>
-        </properties>
-      </component>
       <component id="b3914" class="javax.swing.JLabel" binding="wrongLB">
         <constraints>
-          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <text value="Wrong!!"/>
@@ -120,6 +112,14 @@
         </constraints>
         <properties>
           <text value="Guess The Random Colour Game"/>
+        </properties>
+      </component>
+      <component id="62e30" class="javax.swing.JLabel" binding="correctLb">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Correct!!"/>
         </properties>
       </component>
     </children>

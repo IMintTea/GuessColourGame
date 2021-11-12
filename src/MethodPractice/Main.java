@@ -4,6 +4,8 @@ import java.util.Random;
 
 public class Main {
 
+    public static Boolean Replay;
+    public static int Score;
 
     public static float getR(){
         Random rd = new Random();
@@ -29,7 +31,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new Gui();
+        Replay = new Gui().Replay;
+        Score = new Gui().Score;
+
+        while (Replay == true && Score != 20) {
+            new Gui();
+            Replay = false;
+        }
+
     }
 
 }
